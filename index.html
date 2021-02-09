@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main-content">
+            <div class="section1">
+             <h1>Vos données</h1>
+             <p>cliquez sur le button "Alétoire" pour tirer deux nombers entre -100 et 100 </p>
+              <label for="ranA">A</label>
+              <input id="ranA" type="text">
+              <label for="ranB">B</label>
+              <input id="ranB" type="text">
+              <input id="altoir" type="button" value="alétoire"/>
+            </div>
+             <div class="section2">
+                <h1>Vos données</h1>
+                <table >
+                    <tr>
+                        <td>A+B</td>
+                        <td><input id="APB" type="text" maxlength="8"></td>
+                    </tr>
+                    <tr>
+                        <td>A-B</td>
+                        <td><input id="ASB" type="text" maxlength="8"></td>
+                    </tr>
+                    <tr>
+                        <td>AxB</td>
+                        <td><input id="AMB" type="text" maxlength="8"></td>
+                    </tr>
+                    <tr>
+                        <td>A/B</td>
+                        <td><input id="ADB" type="text" maxlength="8"></td>
+                    </tr>
+                    <tr rowspan="2">
+                        <td colspan="2" ><input id="verifier" type="button" value="vérifier"></td>
+                    </tr>
+                </table>
+                <div id="msg"></div>
+             </div>
+             <div class="section1">
+                <h1>La Correction</h1>
+                <label>A+B</label>
+                <input id="APBC" type="text" maxlength="10" disabled>
+                <label>A-B</label>
+                <td><input id="ASBC" type="text" maxlength="10" disabled>
+                <label>AxB</label>
+                <td><input id="AMBC" type="text" maxlength="10" disabled>
+                <label>A/B</label>
+                <input id="ADBC" type="text" maxlength="10" disabled>
+                <input id="okbtn" type="button" value="Ok"/>
+               </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>

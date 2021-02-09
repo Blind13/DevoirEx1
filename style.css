@@ -1,0 +1,20 @@
+.main-content{
+    border: 2px solid  #A7EDDF ;
+    padding:20px 0px;
+}
+
+table{
+    border:6px groove black;
+}
+
+table tr td{
+    width: 50px;
+    color: red;
+    border: 4px solid lightblue;
+}
+table tr td input[type="button"] {margin:0px 70px;}
+
+#APBC,#ASBC,#AMBC,#ADBC{
+    color: blue;
+    text-align: right;
+}
